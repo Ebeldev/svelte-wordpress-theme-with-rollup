@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../src/App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n    export let name\n\n    let count = 0\n\n    function counter() {\n        count+= 1\n    }\n</script>\n\n<style>\n\th1 {\n\t\tcolor: blue;\n\t}\n</style>\n\n<h1>Hello {name}!</h1>\n<h2>Welcome to Svelte!</h2>\n<button on:click={counter}>\nClick me I'm reactive!</button>\n<span>{count}</span>\n"
+  ],
+  "names": [],
+  "mappings": "AAWC,EAAE,eAAC,CAAC,AACH,KAAK,CAAE,IAAI,AACZ,CAAC"
+}
