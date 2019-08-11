@@ -29,6 +29,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "rollup-plugin-uglify": "^6.0.2",
     "svelte-loader": "^2.13.6"
   }
 }
